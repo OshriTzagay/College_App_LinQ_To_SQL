@@ -74,6 +74,12 @@ namespace College_App_LinQ_To_SQL.Controllers.api
         {
             try
             {
+                ////////////////////////////////////
+                ///---> Come back and try to find another way ! :) <--- 
+                ///
+                ////////////////////////////////////
+                ///
+
                 Teacher editedTeacher = teachersData.Teachers.First(item => item.Id == id);
                 editedTeacher.First_Name = value.First_Name;
                 editedTeacher.Last_Name = value.Last_Name;
